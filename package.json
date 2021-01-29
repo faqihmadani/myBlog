@@ -1,0 +1,19 @@
+{
+  "name": "my-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "autoprefixer": "^10.2.3",
+    "postcss": "^8.2.4",
+    "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "css:build": "tailwindcss build ./src/styles.css -o ./public/styles.css",
+    "css:prod": "NODE_ENV=production tailwindcss build ./src/styles.css -o ./public/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
